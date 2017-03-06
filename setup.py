@@ -1,9 +1,8 @@
 from distutils.core import setup
 
-setup(name='r-conda-demo',
-      version='1.1',
+setup(name='r-conda-demo2',
+      version='1.0',
       description='Test 1',
       author='Marjean Pobuda',
-      author_email='mpobuda@esri.com',
-      url='http://www.arcgis.com',
-      license='ESRI', )
+      author_email='marpobuda@gmail.com',
+      url='https://github.com' )
