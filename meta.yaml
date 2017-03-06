@@ -1,0 +1,25 @@
+package:
+  name: r-conda-demo
+  version: "1.1"
+
+build:
+  number: 0
+
+source:
+  git_rev: HEAD
+  git_url: https://devtopia.esri.com/marj8502/R_conda_test2.git
+
+requirements:
+  build:
+    - python
+    - r-base
+    - r-arcgisbinding
+    - r-dbscan
+  run:
+    - r-base
+    - r-arcgisbinding
+    - r-dbscan
+
+about:
+  home: https://devtopia.esri.com/marj8502/R_conda_test2/
+  license: Esri
